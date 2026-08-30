@@ -71,6 +71,6 @@ def predict(data: CustomerData):
     probability = model.predict_proba(input_df)[0][1]
 
     return {
-        "churn prediction": int(prediction),
+        "churn_prediction": int(prediction),
         "churn_probability": round(float(probability), 4)
     }
