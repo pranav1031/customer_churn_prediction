@@ -78,3 +78,7 @@ streamlit run streamlit_app.py
 - Try XGBoost/LightGBM with proper tuning
 - SHAP values for model explainability
 - Dockerize and deploy to a cloud platform
+
+## Author
+
+- Pranav Sharma
